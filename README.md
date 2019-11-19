@@ -155,6 +155,7 @@
     | Transport Layer   	| WiFi     	|
     | Network Layer     	| TCP      	|
     | Physical Layer    	| HTTP     	|
+      
 
 14. What is the correct HTML for making a text input field?  
     ```html
@@ -192,7 +193,7 @@
     ```  
 
 18. Consider the table shown below. Which line of code would create the last row of the table?  
-    ![q19-table](img/table1.jpg)
+    ![q19-table](img/table1.jpg)  
     ```html
     A. <tr><td></td><td rowspan=”2”></td></tr>
     B. <tr><td colspan=”2”></td><td rowspan=”2”></td></tr>
@@ -219,7 +220,7 @@
     ```
 
 21. Given a file structure in the figure below, if you are working on the source code of `index.html`, which of the following is the correct relative URL for `lecture1.html`?  
-    ![q22-file-structure](img/file-structure-1.JPG)
+    ![q22-file-structure](img/file-structure-1.JPG)  
     A. `lecture1.html`  
     B. `lectures/lecture1.html`  
     C. `../lectures/lecture1.html`  
