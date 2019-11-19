@@ -94,6 +94,7 @@
     A. XML  
     B. HTML  
     C. CSS  
+    D. Javascript  
     
 6. What the following code will do if someone types in “18”?  
     ```javascript
@@ -134,13 +135,19 @@
     C. XML elements have to be in lower case  
     D. All of the above  
 
-11. What is one advantage that HTML5 APIs offer for modern Web design?  
+11. Which of the following statements is true? (2%)  
+    A. JPG files are limited to 256 colors.  
+    B. GIF files support 8 bit transparency.  
+    C. Use GIF files for photographs.  
+    D. GIF uses lossless compression algorithm  
+
+12. What is one advantage that HTML5 APIs offer for modern Web design?  
     A. They enable users to view Flash content on mobile devices.  
     B. They enable developers to create apps without coding skills  
     C. They enable older browsers to display any multimedia content  
     D. They enable users to view multimedia without plug-ins  
 
-12. Match each of the TCP/IP layers with the correct protocol.  
+13. Match each of the TCP/IP layers with the correct protocol.  
 
     |       Layer       	| Protocol 	|
     |:-----------------:	|:--------:	|
@@ -149,7 +156,7 @@
     | Network Layer     	| TCP      	|
     | Physical Layer    	| HTTP     	|
 
-13. What is the correct HTML for making a text input field?  
+14. What is the correct HTML for making a text input field?  
     ```html
     A. <input type="textfield">
     B. <textfield>
@@ -157,24 +164,12 @@
     D. <textinput type="text">
     ```
 
-14. How do you display hyperlinks without an underline?  
+15. How do you display hyperlinks without an underline?  
     ```css
     A. a {decoration:no-underline;}
     B. a {text-decoration:none;}
     C. a {underline:none;}
     D. a {text-decoration:no-underline;}
-    ```
-
-15. How do you display a border like this:  
-    The top border = 10 pixels  
-    The bottom border = 5 pixels  
-    The left border = 20 pixels  
-    The right border = 1pixel?  
-    ```css
-    A. border-width:10px 1px 5px 20px;
-    B. border-width:5px 20px 10px 1px;
-    C. border-width:10px 20px 5px 1px;
-    D. border-width:10px 5px 20px 1px;
     ```
 
 16. What is the correct JavaScript syntax to change the content of the HTML element below?    
@@ -197,6 +192,7 @@
     ```  
 
 18. Consider the table shown below. Which line of code would create the last row of the table?  
+    ![q19-table](img/table1.jpg)
     ```html
     A. <tr><td></td><td rowspan=”2”></td></tr>
     B. <tr><td colspan=”2”></td><td rowspan=”2”></td></tr>
@@ -223,6 +219,7 @@
     ```
 
 21. Given a file structure in the figure below, if you are working on the source code of `index.html`, which of the following is the correct relative URL for `lecture1.html`?  
+    ![q22-file-structure](img/file-structure-1.JPG)
     A. `lecture1.html`  
     B. `lectures/lecture1.html`  
     C. `../lectures/lecture1.html`  
@@ -265,3 +262,5 @@
     (g) document.write (k == l);
     (h) document.write (k === l);
     ```
+
+[Link to proposed solutions](solutions.md)
