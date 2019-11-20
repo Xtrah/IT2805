@@ -1,5 +1,6 @@
-# Assignment questions
-## 1 HTML introduction
+# Assignment & Exam questions, with solutions
+## Assignment questions
+### 1 HTML introduction
 1. **What does the server in the client server architecture do?**  
     The server provides a service to one or many clients after the clients initiate requests for given services. Servers are classified by the services they provide, like web servers or file servers.
 2. **What does the client do?**  
@@ -13,7 +14,7 @@
 6. **Explain what HTML is**  
     HTML stands for HyperText Markup Language and is a set of instructions on how to create a document like a web page. Web browsers read these instructions and displays the web page formatted for the user.
 
-## 2 HTML continued, links/paths & CSS introduction
+### 2 HTML continued, links/paths & CSS introduction
 1. **Why does inline style CSS override rules defined in style elements and external stylesheets?**  
     The more specific the CSS selector is, the higher is the precedence of the CSS property declarations inside the CSS rule owning the selector. In general terms, the more specifically (uniquely) a CSS selector targets an HTML element, the higher is its specificity.
 2. **Give a brief example of when to use ID (`#id`) and when to use classes (`.class`) in CSS.**  
@@ -35,17 +36,16 @@
 6. **What are the DRY and KISS principles of software design?**  
     DRY, or `Don't Repeat Yourself`, is a software design principle revolving around using less code in general and reusing code where possible to reduce repetition of software patterns. `Keep It Simple Stupid` is a principle where the main concept is to keep code as simple as possible. Each method, class or function should be clearly named as simple as possible to understand for whoever looks at your code.
 
-## 3 CSS continued
+### 3 CSS continued
 1. **What is the difference between `position: absolute` and `position: fixed`?**  
     Absolute positioning is relative to its parent element, while fixed positioning is relative to the viewport/the browser window.  
 2. **With CSS3, how do we access the third element within another element?**  
     The pseudo selector `:nth-child` is made for this, and to access the third element we would use `:nth-child(3)`.
 
-## 4 HTML video & css
+### 4 HTML video & css
 1. **Why do mobile phones usually ignore auto play on video elements?**  
     Mobile devices are often limited by cellular data plans so they are set to ignore auto play by default to save data quota.
 2. **What will this CSS snippet do if the visitor is browsing on a device with `320x568` resolution?**  
-    It will not affect the user as it only affects users within the width range `768px` to `1024px`.  
     ```css
     @media only screen
         and (min-device-width : 768px)
@@ -55,13 +55,14 @@
             }
         }
     ```
+    It will not affect the user as it only affects users within the width range `768px` to `1024px`.
 
 3. **Mention some of the advantages of having a single responsive website instead of dedicated versions like `m.til.no` for mobile and `til.no` for desktop?**  
     - Improved user experience with faster web sites
     - No duplicate content
     - Better analytics on how users use your website
 
-## 5 Forms, XML and JavaScript
+### 5 Forms, XML and JavaScript
 1. **Why does the following expression `0.1 + 0.2 === 0.3` evaluate to false in Javascript?**  
     Binary float point math with 64 bit representation can't represent denominators which are not a power of 2 accurately, so the actual result of the expression is not `0.3`.
 2. **What does the `method` attribute on a `form` element decide?**  
@@ -73,7 +74,7 @@
 5. **When is it appropriate to use `textarea` over `input`?**  
     When the input field requires a paragraph instead of a smaller input message it could be appropriate to use a resizable text area. Here you would probably consider using the method `POST` as well.
 
-## 6 Canvas
+### 6 Canvas
 1. **When calling `getContext('2d')` on a Canvas element, it will return a drawing context (i.e. the type of canvas) - in this case a two-dimensional context. How can we get a threedimensional context instead?**  
     `let ctx = document.getContext("webgl")`
     
@@ -102,7 +103,7 @@
     const shorterCountriesStartingWithN = countries.filter(country => country.startsWith("N"));
     ```
 
-# Exam questions
+## Exam questions
 
 1. In CSS, you can override precedence rules by adding the ____ property to a style declaration.  
     A. !override  
@@ -234,8 +235,8 @@
     ```  
     **Answer: D**
 
-19. Consider the table shown below. Which line of code would create the last row of the table?  
-    ![q19-table](img/q19-table.jpg)  
+18. Consider the table shown below. Which line of code would create the last row of the table?  
+    ![q18-table](img/q18-table.jpg)  
     ```html
     A. <tr><td></td><td rowspan=”2”></td></tr>
     B. <tr><td colspan=”2”></td><td rowspan=”2”></td></tr>
@@ -244,7 +245,7 @@
     ```
     **Answer: D**
 
-20. How many alert boxes will the following loop produce?    
+19. How many alert boxes will the following loop produce?    
     ```javascript
     for ( var Index = 0; Index <= 2; ++Index )
     alert( Index );
@@ -254,7 +255,7 @@
     C. 2  
     **D. 3**  
 
-21. Which of the following is the code for accessing the contents of an input box named `userData` on a form?
+20. Which of the following is the code for accessing the contents of an input box named `userData` on a form?
     ```javascript
     A. document.forms[0].userData  
     B. document.forms[0].userData.value  
@@ -263,14 +264,14 @@
     ```
     **Answer: B**
 
-22. Given a file structure in the figure below, if you are working on the source code of `index.html`, which of the following is the correct relative URL for `lecture1.html`?  
-    ![q22-file-structure](img/q22-file-structure.jpg)  
+21. Given a file structure in the figure below, if you are working on the source code of `index.html`, which of the following is the correct relative URL for `lecture1.html`?  
+    ![q21-file-structure](img/q21-file-structure.jpg)  
     A. `lecture1.html`  
     **B. `lectures/lecture1.html`**  
     C. `../lectures/lecture1.html`  
     D. `./lecture1.html`  
 
-23. The syntax for adding a textfield of 3 rows, each of width 40 is:  
+22. The syntax for adding a textfield of 3 rows, each of width 40 is:  
     ```html  
     A. <textfield rowspan=”3” colspan=”40”>blah blah</textfield>  
     B. <textfield rows=”3” width=”40”>blah blah</text>  
@@ -279,7 +280,7 @@
     ```
     **Answer: D**
 
-24. Indicate whether each of the following statements is True or False.  
+23. Indicate whether each of the following statements is True or False.  
     **A. The below is valid JSON.**  
     B. In an HTML form, the method attribute is used to specify the script file that processes the form data  
     C. Domain Name Servers map symbolic computer names to their host names  
@@ -293,7 +294,7 @@
     }
     ```
 
-25. What is the output when you run the following programs:  
+24. What is the output when you run the following programs:  
     ```javascript
     var i = 25;
     var j = “25”;
