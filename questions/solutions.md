@@ -105,7 +105,7 @@
 
 ## Exam questions
 
-1. In CSS, you can override precedence rules by adding the ____ property to a style declaration.  
+1. In CSS, you can override precedence rules by adding the __ property to a style declaration.  
     A. !override  
     B. !main  
     **C. !important**  
@@ -169,25 +169,19 @@
     C. padding, margins, border  
     **D. margins, border, padding**  
 
-10. Which statement is true?  
+10. Which statement is True?  
     **A. An XML document can have one root element**  
     B. An XML document can have one child element  
     C. XML elements have to be in lower case  
     D. All of the above  
 
-11. Which of the following statements is true? (2%)  
+11. Which of the following statements is True? (2%)  
     A. JPG files are limited to 256 colors.  
     B. GIF files support 8 bit transparency.  
     C. Use GIF files for photographs.  
     **D. GIF uses lossless compression algorithm**  
 
-12. What is one advantage that HTML5 APIs offer for modern Web design?  
-    A. They enable users to view Flash content on mobile devices.  
-    B. They enable developers to create apps without coding skills  
-    C. They enable older browsers to display any multimedia content  
-    **D. They enable users to view multimedia without plug-ins**  
-
-13. Match each of the TCP/IP layers with the correct protocol.  
+12. Match each of the TCP/IP layers with the correct protocol.  
 
     |       Layer       	| Protocol 	|
     |:-----------------:	|:--------:	|
@@ -196,7 +190,7 @@
     | Network Layer     	| **IP**   	|
     | Physical Layer    	| **WiFi** 	|
 
-14. What is the correct HTML for making a text input field?  
+13. What is the correct HTML for making a text input field?  
     ```html
     A. <input type="textfield">
     B. <textfield>
@@ -205,8 +199,8 @@
     ```
     **Answer: C**  
 
-15. How do you display hyperlinks without an underline?  
-    ```css
+14. How do you display hyperlinks without an underline?  
+    ```
     A. a {decoration:no-underline;}
     B. a {text-decoration:none;}
     C. a {underline:none;}
@@ -214,7 +208,7 @@
     ```
     **Answer: B**  
 
-16. What is the correct JavaScript syntax to change the content of the HTML element below?    
+15. What is the correct JavaScript syntax to change the content of the HTML element below?    
     ```html
     <p id="demo">This is a demonstration.</p>
     ```
@@ -226,7 +220,7 @@
     ```
     **Answer: A**  
 
-17. If you wanted to round the corners of a block element, which style property would you apply?  
+16. If you wanted to round the corners of a block element, which style property would you apply?  
     ```css
     A. border:
     B. border-arc:
@@ -235,8 +229,8 @@
     ```  
     **Answer: D**
 
-18. Consider the table shown below. Which line of code would create the last row of the table?  
-    ![q18-table](img/q18-table.jpg)  
+17. Consider the table shown below. Which line of code would create the last row of the table?  
+    ![q17-table](img/q17-table.jpg)  
     ```html
     A. <tr><td></td><td rowspan=”2”></td></tr>
     B. <tr><td colspan=”2”></td><td rowspan=”2”></td></tr>
@@ -245,7 +239,7 @@
     ```
     **Answer: D**
 
-19. How many alert boxes will the following loop produce?    
+18. How many alert boxes will the following loop produce?    
     ```javascript
     for ( var Index = 0; Index <= 2; ++Index )
     alert( Index );
@@ -255,7 +249,7 @@
     C. 2  
     **D. 3**  
 
-20. Which of the following is the code for accessing the contents of an input box named `userData` on a form?
+19. Which of the following is the code for accessing the contents of an input box named `userData` on a form?
     ```javascript
     A. document.forms[0].userData  
     B. document.forms[0].userData.value  
@@ -264,14 +258,14 @@
     ```
     **Answer: B**
 
-21. Given a file structure in the figure below, if you are working on the source code of `index.html`, which of the following is the correct relative URL for `lecture1.html`?  
-    ![q21-file-structure](img/q21-file-structure.jpg)  
+20. Given a file structure in the figure below, if you are working on the source code of `index.html`, which of the following is the correct relative URL for `lecture1.html`?  
+    ![q20-file-structure](img/q20-file-structure.jpg)  
     A. `lecture1.html`  
     **B. `lectures/lecture1.html`**  
     C. `../lectures/lecture1.html`  
     D. `./lecture1.html`  
 
-22. The syntax for adding a textfield of 3 rows, each of width 40 is:  
+21. The syntax for adding a textfield of 3 rows, each of width 40 is:  
     ```html  
     A. <textfield rowspan=”3” colspan=”40”>blah blah</textfield>  
     B. <textfield rows=”3” width=”40”>blah blah</text>  
@@ -280,11 +274,8 @@
     ```
     **Answer: D**
 
-23. Indicate whether each of the following statements is True or False.  
+22. Indicate whether each of the following statements is **True** or False.  
     **A. The below is valid JSON.**  
-    B. In an HTML form, the method attribute is used to specify the script file that processes the form data  
-    C. Domain Name Servers map symbolic computer names to their host names  
-    D. XML elements cannot be empty  
     ```json
     {
         "id": 1,
@@ -293,8 +284,11 @@
         "tags": ["home", "green"]
     }
     ```
+    B. In an HTML form, the method attribute is used to specify the script file that processes the form data  
+    C. Domain Name Servers map symbolic computer names to their host names  
+    D. XML elements cannot be empty  
 
-24. What is the output when you run the following programs:  
+23. What is the output when you run the following programs:  
     ```javascript
     var i = 25;
     var j = “25”;
@@ -309,3 +303,186 @@
     (g) document.write (k == l); // True
     (h) document.write (k === l); // True
     ```
+
+24. The elements `<div>` and `<span>` have the following characteristics:  
+    A. Element `<div>` inherits properties defined for `<span>` in a stylesheet  
+    B. `<div>` and `<span>` have no real meanings as html tags unless stylesheet is applied  
+    **C. Elements `<span>` and `<div>` define content to be inline or block-level**  
+    D. `<div>` and `<span>` are used as alternatives for the element `<p>`  
+    E. `<div>` is used inside element `<p>`  
+
+25. In regards to the CSS box model, where is the margin property located?  
+    A. Inside the box  
+    **B. Outside the box**  
+    C. Inside or outside depending on where you put it in your code  
+    D. None of the above  
+
+26. Which built-in HTML5 object is used to draw on the canvas?  
+    **A. getContext**  
+    B. getContent  
+    C. getGraphics  
+    D. getCanvas  
+
+27. Which primitive shape is supported by `<canvas>`?  
+    A. Cycle  
+    **B. Rectangle**  
+    C. Polygon  
+    D. Triangle  
+
+28. While working on a JavaScript project, which function would you use to send messages to users requesting for text input?  
+    A. `Display()`  
+    **B. `Prompt()`**  
+    C. `Alert()`  
+    D. `GetInput()`  
+    E. `Confirm()`  
+
+29. Which protocol is ideal for transmitting large files?  
+    A. HTTP  
+    **B. FTP**  
+    C. SMTP  
+    D. RTP  
+
+30. In HTML tables, the number of columns is determined by:  
+    **A. how many `<td>` elements are inserted within each row**  
+    B. the width attribute of the `<tr>` element  
+    C. the `<col>` element  
+    D. none of the above  
+
+31. If you'd like visited links to be green, unvisited links to be blue, and links that the mouse is over to be red, which CSS rules will you use?
+    ```css
+    A.
+    a:visited { color: green }
+    a:unvisited { color: blue }
+    a:mouseover { color: red }
+    
+    B.
+    a:link { color: blue }
+    a:visited { color: green }
+    a:hover { color: red }
+    
+    C.
+    a:hover { color: red }
+    a:visited { color: green }
+    a:link { color: blue }
+    
+    D.
+    a:active { color: green }
+    a:link { color: blue }
+    a:hover { color: red }
+    ```
+    **Answer: B**
+
+32. From outside to inside, a box (block) has:  
+    A. border, margins, padding  
+    B. margins, padding, border  
+    C. padding, margins, border  
+    **D. margins, border, padding**  
+
+33. The difference between margins and padding is...  
+    A. indistinguishable if there's no border  
+    **B. margin does not have a background color**  
+    C. padding is measured in `em`; margins in `px`;  
+    D. there is no difference  
+
+34. What is the default value of the `position` property?  
+    A. `relative`  
+    B. `absolute`  
+    C. `fixed`  
+    **D. `static`**  
+
+35. Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?  
+    **A. `src`**  
+    B. `title`  
+    C. `alt`  
+    D. `longdesc`  
+
+36. Indicate whether each of the following statements is **True** or False  
+    **A. This a "well formed" XML document:**  
+    ```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <book1>
+    <isbn>1234567890</isbn>
+    <name>XML Master Basic >2006&lt;</name>
+    </book1>
+    ```
+    B. In a hierarchical structure, each page is linked with the pages that follow and precede it in an ordered chain  
+    **C. In HTML5 `<video>` element you don’t need to supply values for all attributes, eg. `control`, `loop`; these attributes are on when they are there and off in case they don’t.**  
+    **D. Pseudo-class selects an element based on a state the element is in**  
+    **E. `POST` requests are never cached**  
+    F. `GET` requests cannot be bookmarked  
+
+37. Given a For loop counter of `for (var i = 1; i <= 5; i+=2)`, the counter values are:  
+    A. 1 and 3  
+    **B. 1, 3, and 5**  
+    C. 5, 3, and 1  
+    D. 1, 2, 3, 4 and 5  
+
+38. Among the following types of style rules, __ has the highest priority.  
+    **A. User Defined Rules**  
+    B. External Style Rules  
+    C. Embedded Rules  
+    **D. Inline Styles**  
+    **_A and D can be right under different circumstances as `!important` works differently in CSS1 and CSS2. Since this was undefined both A and D is considered correct._**  
+
+39. Which one of the following statements is False?  
+    A. In JavaScript, identifier names are case sensitive.  
+    B. JavaScript code can appear in both `<head>` and `<body>` sections.  
+    **C. External JavaScript file can be linked using the `<link>` element.**  
+    D. JavaScript can be turned off by the users concerning of security.  
+
+40. The style rule `li, em {color: blue}` indicates the content of __ will appear in blue color.  
+    **A. Both `<em>` and `<li>` elements**  
+    B. Any `<em>` elements that are inside a `<li>` element  
+    C. The first `<em>` element that is inside a `<li>` element  
+    D. The `<li em>` element  
+
+41. Indicate whether each of the following statements is **True** or False.  
+    **A. HTML allows constructs that are not permitted in XHTML**  
+    **_True: For example, you can omit close tags for many elements, or use characters such as “<” without escaping them._**  
+    B. GIF supports 8-bit transparency, meaning image can “fade-in” through partial transparency  
+    **C. Is this a "well formed" XML document?**  
+    ```xml
+    <?xml version="1.0"?>
+    <note>
+    <to age="29">Tove</to>
+    <from>Jani</from>
+    </note>
+    ```
+    **_Answer: True_**  
+    **_Well Formed XML Documents_**  
+        **_An XML document with correct syntax is "Well Formed":_**  
+            * **_XML documents must have a root element_**  
+            * **_XML elements must have a closing tag_**  
+            * **_XML tags are case sensitive_**  
+            * **_XML elements must be properly nested_**  
+            * **_XML attribute values must be quoted_**
+
+42. Indicate whether the sentence or statement is **True** or False:  
+    **A. An HTML file contains both formatting tags and content**  
+    **B. The alt attribute in an `<img>` element is often used to include a text description of the image, which displays for non-graphical browsers**  
+    C. By default a block level element will be displayed with a bordered box around it  
+    **D. CSS positioning is more advantageous than `<table>` for page layout.**  
+
+43. In the URL `http://www.idi.ntntu.no/course/info.html#majors`, which part indicates an internal section of the page?  
+    A. `http://`  
+    B. `www.idi.ntntu.no`  
+    C. `/course/info.html`  
+    **D. `#majors`**  
+
+44. The __ element is used to mark a sectioning content/block within an HTML doc.  
+    A. `<nav>`  
+    B. `<span>`  
+    **C. `<div>`**  
+    D. `<class>`  
+
+45. Which of the following is NOT an inline element?  
+    A. `<img>`  
+    B. `<input>`  
+    C. `<span>`  
+    **D. None of the above**  
+
+47. Which of the following statements is True?  
+    A. JPG files are limited to 256 colors.  
+    B. PNG files only support 1 bit transparency.  
+    C. GIF is a good format for photographs.  
+    **D. PNG uses the DEFLATE lossless compression algorithm.**  
