@@ -391,9 +391,9 @@
     **D. `static`**  
 
 35. Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?  
-    **A. `src`**  
+    A. `src`  
     B. `title`  
-    C. `alt`  
+    **C. `alt`**  
     D. `longdesc`  
 
 36. Indicate whether each of the following statements is **True** or False  
