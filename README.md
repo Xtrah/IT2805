@@ -9,7 +9,7 @@
 |----------|:-------------:|
 | [1) HTML introduction](assignments/1/assignment-1.pdf) | [attachments](assignments/1/attachments-1.zip) |
 | [2) HTML continued, links/paths & CSS introduction](assignments/2/assignment-2.pdf) | [attachments](assignments/2/attachments-2.zip) |
-| [3) CSS continued](assignments/2/assignment-3.pdf) | [attachments](assignments/3/attachments-3.zip) |
+| [3) CSS continued](assignments/3/assignment-3.pdf) | [attachments](assignments/3/attachments-3.zip) |
 | [4) HTML5 video & css](assignments/4/assignment-4.pdf) | [attachments](assignments/4/attachments-4.zip) |
 | [5) JavaScript introduction](assignments/5/assignment-5.pdf) | [attachments](assignments/5/attachments-5.zip) |
 | [6) Forms, XML & JavaScript](assignments/6/assignment-6.pdf) | [attachments](assignments/6/attachments-6.zip) |
