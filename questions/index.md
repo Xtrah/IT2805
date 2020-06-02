@@ -433,3 +433,5 @@
 
 
 [Link to solutions](solutions.md)
+
+{% include gotop.html %}

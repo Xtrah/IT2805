@@ -486,3 +486,6 @@
     B. PNG files only support 1 bit transparency.  
     C. GIF is a good format for photographs.  
     **D. PNG uses the DEFLATE lossless compression algorithm.**  
+
+
+{% include gotop.html %}
