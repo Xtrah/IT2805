@@ -18,10 +18,11 @@
 
 ## Exams
 
-| Year 	| Exam    	| Solution 	                    | Note          	        |
-|:----:	|---------	|----------	                    |-----------    	        |
-| 2019 	| [exam](exams/IT2805_Exam_ex1.pdf)        	| [solution](exams/IT2805_Exam_ex1_solution.pdf) 	| Example 1 	|
-| 2019 	| [exam](exams/IT2805_Exam_ex2.pdf)        	| [solution](exams/IT2805_Exam_ex2_solution.pdf) 	| Example 2 	|
-| 2015 	| [exam](exams/IT2805_Exam_2015.pdf)    	| [solution](exams/IT2805_Exam_2015_solution.pdf)    |           	|
-| 2014 	| _missing_	                                | [solution](exams/IT2805_Exam_2014_solution.pdf)    |               |
-| 2014 	| _missing_                             	| [solution](exams/IT2805_Midterm_2014_solution.pdf)  |  Midterm     |
+| Year | Note      | Exam                                        | Solution                                                 |
+|:----:|-----------|---------------------------------------------|----------------------------------------------------------|
+| 2019 |           | _missing_                                   | [solution](exams/IT2805_2019_Exam_solution.pdf)          |
+| 2019 | Example 1 | [exam](exams/IT2805_2019_Exam_example1.pdf) | [solution](exams/IT2805_2019_Exam_example1_solution.pdf) |
+| 2019 | Example 2 | [exam](exams/IT2805_2019_Exam_example2.pdf) | [solution](exams/IT2805_2019_Exam_example2_solution.pdf) |
+| 2015 |           | [exam](exams/IT2805_2015_Exam.pdf)          | [solution](exams/IT2805_2015_Exam_solution.pdf)          |
+| 2014 |           | _missing_                                   | [solution](exams/IT2805_2014_Exam_solution.pdf)          |
+| 2014 | Midterm   | _missing_                                   | [solution](exams/IT2805_2014_Midterm_solution.pdf)       |
