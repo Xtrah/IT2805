@@ -1,5 +1,6 @@
 # IT2805 Webteknologi
 ## Theory
+[Curriculum](resources\curriculum.pdf)  
 [Questions](questions/index.md)  
 [Questions with solutions](questions/solutions.md)
 
